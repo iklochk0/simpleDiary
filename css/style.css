@@ -1,0 +1,78 @@
+* {
+    margin: 0 0;
+    background-color: black;
+    color: wheat;
+    transition: 0.5s all;
+}
+
+div#control-panel {
+    position: fixed;
+}
+
+button.cp-btn {
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: aliceblue;
+    color: black;
+    transition: none;
+    border: 3px solid rgb(155, 155, 155);
+}
+
+button.cp-btn:hover {
+    border: 3px double rgb(71, 71, 71);
+}
+
+div#container {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    /* border-radius: 10%; */
+    border-left: 1px dotted rgb(100, 100, 100);
+    border-right: 1px dotted rgb(100, 100, 100);
+    box-shadow: 5px 0 5px rgb(10, 10, 10);
+}
+
+h1 {
+    text-shadow: 2px 0 5px rgb(100, 100, 100);
+}
+
+div.cont {
+    margin-top: 30px;
+}
+
+div.cont:first-child {
+    margin-top: 0;
+}
+
+button.add {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background: rgb(5, 5, 5);
+    border-top: 1px dotted rgb(100, 100, 100);
+    border-bottom: 1px dotted rgb(100, 100, 100);
+}
+
+button.add:hover {
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+}
+
+li {
+    text-align: left;
+    list-style: none;
+}
+
+footer {
+    font-size: large;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+span {
+    text-transform: uppercase;
+}
